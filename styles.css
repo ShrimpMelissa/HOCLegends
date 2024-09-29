@@ -416,6 +416,11 @@ body.dark-mode #disclaimer-info p {
     background-position: center;
 }
 
+.upgrade-buttons button:last-child {
+    margin-bottom: 2em;
+}
+
+
 .upgrade-buttons button:hover {
     background-color: #f0f0f0;
     transform: translateY(-3px);

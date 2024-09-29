@@ -5,6 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heroes of Crown: Legends Guide</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .upgrade-buttons button {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            padding-bottom: 30px; /* Adjust this value to control the height of the text area */
+        }
+        .upgrade-buttons button::after {
+            content: attr(data-text);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 5px;
+            text-align: center;
+            font-size: 12px; /* Adjust as needed */
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -53,22 +74,22 @@
         <div id="upgrade-requirements" class="tab-content">
             <h2>Upgrade Requirements</h2>
             <div class="upgrade-buttons">
-                <button onclick="showUpgradeImage('./Images/herostar.png')">Hero Star</button>
-                <button onclick="showUpgradeImage('./Images/potential.png')">Potential</button>
-                <button onclick="showUpgradeImage('./Images/transfer.png')">Transfer</button>
-                <button onclick="showUpgradeImage('./Images/upanishad.png')">Upanishad</button>
-                <button onclick="showUpgradeImage('./Images/rebirth.png')">Rebirth</button>
-                <button onclick="showUpgradeImage('./Images/divinity.png')">Divinity</button>
-                <button onclick="showUpgradeImage('./Images/runestone.png')">Runestone</button>
-                <button onclick="showUpgradeImage('./Images/talisman.png')">Talisman</button>
-                <button onclick="showUpgradeImage('./Images/spirits.png')">Spirits</button>
-                <button onclick="showUpgradeImage('./Images/starhubgear.png')">Star Hub Gear</button>
-                <button onclick="showUpgradeImage('./Images/treasure.png')">Treasure</button>
-                <button onclick="showUpgradeImage('./Images/pet.png')">Pet</button>
-                <button onclick="showUpgradeImage('./Images/codex.png')">Codex</button>
-                <button onclick="showUpgradeImage('./Images/energysource.png')">Energy Source</button>
-                <button onclick="showUpgradeImage('./Images/artifact.png')">Artifact</button>
-                <button onclick="showUpgradeImage('./Images/goddesskin.png')">Goddess Skin</button>
+                <button onclick="showUpgradeImage('./Images/herostar.png')" style="background-image: url('./Images/stars.png');" data-text="Hero Star"></button>
+                <button onclick="showUpgradeImage('./Images/potential.png')" style="background-image: url('./Images/Upscaled-potential.png');" data-text="Potential"></button>
+                <button onclick="showUpgradeImage('./Images/transfer.png')" style="background-image: url('./Images/Upscaled-transfer.png');" data-text="Transfer"></button>
+                <button onclick="showUpgradeImage('./Images/upanishad.png')" style="background-image: url('./Images/Upscaled-upanishad.png');" data-text="Upanishad"></button>
+                <button onclick="showUpgradeImage('./Images/rebirth.png')" style="background-image: url('./Images/Upscaled-rebirth.png');" data-text="Rebirth"></button>
+                <button onclick="showUpgradeImage('./Images/divinity.png')" style="background-image: url('./Images/Upscaled-crown.png');" data-text="Divinity"></button>
+                <button onclick="showUpgradeImage('./Images/runestone.png')" style="background-image: url('./Images/Upscaled-runestone.png');" data-text="Runestone"></button>
+                <button onclick="showUpgradeImage('./Images/talisman.png')" style="background-image: url('./Images/Upscaled-origin.png');" data-text="Talisman"></button>
+                <button onclick="showUpgradeImage('./Images/spirits.png')" style="background-image: url('./Images/Upscaled-spirit.png');" data-text="Spirits"></button>
+                <button onclick="showUpgradeImage('./Images/starhubgear.png')" style="background-image: url('./Images/Upscaled-starhub.png');" data-text="Star Hub Gear"></button>
+                <button onclick="showUpgradeImage('./Images/treasure.png')" style="background-image: url('./Images/Upscaled-treasure.png');" data-text="Treasure"></button>
+                <button onclick="showUpgradeImage('./Images/pet.png')" style="background-image: url('./Images/Upscaled-pet.png');" data-text="Pet"></button>
+                <button onclick="showUpgradeImage('./Images/codex.png')" style="background-image: url('./Images/Upscaled-codex.png');" data-text="Codex"></button>
+                <button onclick="showUpgradeImage('./Images/energysource.png')" style="background-image: url('./Images/Upscaled-source.png');" data-text="Energy Source"></button>
+                <button onclick="showUpgradeImage('./Images/artifact.png')" style="background-image: url('./Images/Upscaled-artifact.png');" data-text="Artifact"></button>
+                <button onclick="showUpgradeImage('./Images/goddesskin.png')" style="background-image: url('./Images/Upscaled-goddess.png');" data-text="Goddess Skin"></button>
             </div>
         </div>
 
