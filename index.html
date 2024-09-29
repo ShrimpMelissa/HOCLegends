@@ -5,40 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heroes of Crown: Legends Guide</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        .upgrade-buttons {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            justify-content: center;
-        }
-        .upgrade-buttons button {
-            padding: 10px;
-            cursor: pointer;
-        }
-        .upgrade-image-overlay {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.7);
-            z-index: 1000;
-            justify-content: center;
-            align-items: center;
-        }
-        .upgrade-image-container {
-            position: relative;
-            max-width: 90%;
-            max-height: 90%;
-        }
-        #upgrade-image {
-            max-width: 100%;
-            max-height: 90vh;
-            object-fit: contain;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -59,14 +25,15 @@
                 <li><a href="#" onclick="openTab(event, 'disclaimer-info'); closeSidebar();">Disclaimer</a></li>
             </ul>
         </div>
-        <button id="dark-mode-toggle">Toggle Dark Mode</button>
+        <button id="dark-mode-toggle">Toggle Theme</button>
     </nav>
 
     <div class="container">
         <div id="welcome" class="tab-content active">
-            <h2>Welcome to Shrimp's Guide!</h2>
+            <h2>Welcome!</h2>
             <p>Please check disclaimers and rating before commenting!</p>
-            <p>If you would like to help or point out something, please reach out to me on Discord: Shrimpblue</p>
+            <p>If you would like to help or point out something, please reach out to me on <b>Discord: Shrimpblue</b></p>
+            <img src="/Images/sharkie.png" alt="">
         </div>
 
         <div id="heroes" class="tab-content">
@@ -132,97 +99,7 @@
     </div>
 
     <script src="script.js"></script>
-    <script>
-        fetch('heroes.json')
-            .then(response => response.json())
-            .then(data => {
-                const heroContainer = document.getElementById('hero-container');
-                data.forEach((hero, index) => {
-                    if (hero.name) {
-                        const heroSection = document.createElement('div');
-                        heroSection.className = 'hero-section';
-                        heroSection.innerHTML = `
-                            <div class="hero-card">
-                                <img src="${hero.image}" alt="${hero.name}" class="hero-image">
-                                <div class="hero-info">
-                                    <div class="hero-name">${hero.name}</div>
-                                    <div class="hero-rating">Tier: ${hero.tier}</div>
-                                </div>
-                                <button class="detail-button" onclick="toggleDetails('hero${index}')">Details</button>
-                            </div>
-                            <div id="hero${index}" class="hero-details">
-                                <h3>Stats</h3>
-                                <ul>
-                                    <li>ATK: ${hero.stats.ATK}</li>
-                                    <li>DEF: ${hero.stats.DEF}</li>
-                                    <li>HP: ${hero.stats.HP}</li>
-                                    <li>SPD: ${hero.stats.SPD}</li>
-                                </ul>
-                                <h3>Description</h3>
-                                <p>${hero.description}</p>
-                                <h3>Recommended Talisman</h3>
-                                <ul>
-                                    ${hero.recommendedTalisman.map(talisman => `<li>${talisman}</li>`).join('')}
-                                </ul>
-                                <h3>Recommended Spirit</h3>
-                                <ul>
-                                    ${hero.recommendedSpirit.map(spirit => `<li>${spirit}</li>`).join('')}
-                                </ul>
-                                <h3>Recommended Codex</h3>
-                                <ul>
-                                    ${hero.recommendedCodex.map(codex => `<li>${codex}</li>`).join('')}
-                                </ul>
-                                <h3>Recommended Pet</h3>
-                                <ul>
-                                    ${hero.recommendedPet.map(pet => `<li>${pet.type}: ${pet.name}</li>`).join('')}
-                                </ul>
-                            </div>
-                        `;
-                        heroContainer.appendChild(heroSection);
-                    }
-                });
-            });
 
-        function showUpgradeImage(imagePath) {
-            const overlay = document.getElementById('upgrade-image-overlay');
-            const image = document.getElementById('upgrade-image');
-            image.src = imagePath;
-            overlay.style.display = 'flex';
-            document.body.style.overflow = 'hidden';
-        }
-
-        function closeUpgradeImage() {
-            const overlay = document.getElementById('upgrade-image-overlay');
-            overlay.style.display = 'none';
-            document.body.style.overflow = 'auto';
-        }
-
-        // Add event listener to close image when clicking outside
-        document.getElementById('upgrade-image-overlay').addEventListener('click', function(event) {
-            if (event.target === this) {
-                closeUpgradeImage();
-            }
-        });
-
-        function openTab(event, tabName) {
-            event.preventDefault();
-            var i, tabContent, tabLinks;
-            tabContent = document.getElementsByClassName("tab-content");
-            for (i = 0; i < tabContent.length; i++) {
-                tabContent[i].style.display = "none";
-            }
-            tabLinks = document.getElementsByTagName("a");
-            for (i = 0; i < tabLinks.length; i++) {
-                tabLinks[i].className = tabLinks[i].className.replace(" active", "");
-            }
-            document.getElementById(tabName).style.display = "block";
-            event.currentTarget.className += " active";
-            window.scrollTo(0, 0);
-        }
-
-        function closeSidebar() {
-            document.getElementById('sidebar').classList.remove('active');
-        }
     </script>
 </body>
 </html>

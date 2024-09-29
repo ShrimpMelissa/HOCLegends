@@ -57,3 +57,94 @@ function toggleDetails(heroId) {
         details.style.display = "none";
     }
 }
+
+fetch('heroes.json')
+    .then(response => response.json())
+    .then(data => {
+        const heroContainer = document.getElementById('hero-container');
+        data.forEach((hero, index) => {
+            if (hero.name) {
+                const heroSection = document.createElement('div');
+                heroSection.className = 'hero-section';
+                heroSection.innerHTML = `
+                    <div class="hero-card">
+                        <img src="${hero.image}" alt="${hero.name}" class="hero-image">
+                        <div class="hero-info">
+                            <div class="hero-name">${hero.name}</div>
+                            <div class="hero-rating">Tier: ${hero.tier}</div>
+                        </div>
+                        <button class="detail-button" onclick="toggleDetails('hero${index}')">Details</button>
+                    </div>
+                    <div id="hero${index}" class="hero-details">
+                        <h3>Stats</h3>
+                        <ul>
+                            <li>ATK: ${hero.stats.ATK}</li>
+                            <li>DEF: ${hero.stats.DEF}</li>
+                            <li>HP: ${hero.stats.HP}</li>
+                            <li>SPD: ${hero.stats.SPD}</li>
+                        </ul>
+                        <h3>Description</h3>
+                        <p>${hero.description}</p>
+                        <h3>Recommended Talisman</h3>
+                        <ul>
+                            ${hero.recommendedTalisman.map(talisman => `<li>${talisman}</li>`).join('')}
+                        </ul>
+                        <h3>Recommended Spirit</h3>
+                        <ul>
+                            ${hero.recommendedSpirit.map(spirit => `<li>${spirit}</li>`).join('')}
+                        </ul>
+                        <h3>Recommended Codex</h3>
+                        <ul>
+                            ${hero.recommendedCodex.map(codex => `<li>${codex}</li>`).join('')}
+                        </ul>
+                        <h3>Recommended Pet</h3>
+                        <ul>
+                            ${hero.recommendedPet.map(pet => `<li>${pet.type}: ${pet.name}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+                heroContainer.appendChild(heroSection);
+            }
+        });
+    });
+
+function showUpgradeImage(imagePath) {
+    const overlay = document.getElementById('upgrade-image-overlay');
+    const image = document.getElementById('upgrade-image');
+    image.src = imagePath;
+    overlay.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+}
+
+function closeUpgradeImage() {
+    const overlay = document.getElementById('upgrade-image-overlay');
+    overlay.style.display = 'none';
+    document.body.style.overflow = 'auto';
+}
+
+// Add event listener to close image when clicking outside
+document.getElementById('upgrade-image-overlay').addEventListener('click', function(event) {
+    if (event.target === this) {
+        closeUpgradeImage();
+    }
+});
+
+function openTab(event, tabName) {
+    event.preventDefault();
+    var i, tabContent, tabLinks;
+    tabContent = document.getElementsByClassName("tab-content");
+    for (i = 0; i < tabContent.length; i++) {
+        tabContent[i].style.display = "none";
+    }
+    tabLinks = document.getElementsByTagName("a");
+    for (i = 0; i < tabLinks.length; i++) {
+        tabLinks[i].className = tabLinks[i].className.replace(" active", "");
+    }
+    document.getElementById(tabName).style.display = "block";
+    event.currentTarget.className += " active";
+    window.scrollTo(0, 0);
+}
+
+function closeSidebar() {
+    document.getElementById('sidebar').classList.remove('active');
+}

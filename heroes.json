@@ -260,7 +260,7 @@
   },
   {
     "name": "Lotus Poet",
-    "tier": "",
+    "tier": "S+",
     "image": "./Images/lotuspoet.png",
     "stats": {
       "ATK": "",
@@ -289,7 +289,7 @@
   },
   {
     "name": "Heady Incense",
-    "tier": "",
+    "tier": "S+",
     "image": "./Images/blossombeauty.png",
     "stats": {
       "ATK": "",
@@ -347,7 +347,7 @@
   },
   {
     "name": "Celestial Lux",
-    "tier": "",
+    "tier": "S",
     "image": "./Images/celestialux.png",
     "stats": {
       "ATK": "",
@@ -376,7 +376,7 @@
   },
   {
     "name": "Lotus Dance",
-    "tier": "",
+    "tier": "S",
     "image": "./Images/lotusdance.png",
     "stats": {
       "ATK": "",
@@ -405,7 +405,7 @@
   },
   {
     "name": "Twilight Priestess",
-    "tier": "",
+    "tier": "S+",
     "image": "./Images/heather.png",
     "stats": {
       "ATK": "",
@@ -434,7 +434,7 @@
   },
   {
     "name": "Dragon Lord",
-    "tier": "",
+    "tier": "S",
     "image": "./Images/dragonlord.png",
     "stats": {
       "ATK": "",
@@ -463,7 +463,7 @@
   },
   {
     "name": "Melody Enchantress",
-    "tier": "",
+    "tier": "A+",
     "image": "./Images/melodyenchantress.png",
     "stats": {
       "ATK": "",
@@ -492,7 +492,7 @@
   },
   {
     "name": "Daylight Spear",
-    "tier": "",
+    "tier": "A",
     "image": "./Images/daylight.png",
     "stats": {
       "ATK": "",
