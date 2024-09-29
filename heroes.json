@@ -9,9 +9,9 @@
       "HP": "1.69m",
       "SPD": "108"
     },
-    "description": "Nuwa, the mankind creator last Nimbus Series hero with super high damage input and flexibility within the fight being able to chain together the nimbus heroes.",
+    "description": "This hero requires either 11 Stars + Divinity 5 or full nimbus for full potential. <br><br> Also recommended to have Artifact to cover her Weakness Nuwa, the mankind creator last Nimbus Series hero with super high damage input and flexibility within the fight being able to chain together the nimbus heroes. Nuwa's output on PvE and PvP are both extremely high being able to lash out true damage attacks, life steal a lot of damage, clear crowd control, add final damage and even ignore rebound effects and counter-attacking effects such as empress. <br><br> She lacks in survival without proper investment being the only weakness she has so far.",
     "recommendedTalisman": [
-      "Rapid + Fury",
+      "Rapid + Fury", 
       "Life Steal + Combo"
     ],
     "recommendedSpirit": [
@@ -33,28 +33,28 @@
     "tier": "Meta",
     "image": "./Images/suth.png",
     "stats": {
-      "ATK": "180k",
-      "DEF": "9900",
-      "HP": "1.7m",
-      "SPD": "110"
+      "ATK": "110k",
+      "DEF": "10904",
+      "HP": "2.53m",
+      "SPD": "105"
     },
-    "description": "Suth, a powerful hero with exceptional abilities in both PvE and PvP scenarios.",
+    "description": "Suth, a powerful hero with exceptional abilities in PvP scenarios. Grants a lot of defensive buffs to the allies granting them plenty of survival.",
     "recommendedTalisman": [
-      "Fury + Combo",
-      "Life Steal + Rapid"
+      "Toughness + Providence",
+      "Rapid + Choice"
     ],
     "recommendedSpirit": [
-      "Johan",
+      "Isis",
       "Margaret"
     ],
     "recommendedCodex": [
-      "Mars Decree > Thor Prayer",
-      "King > Nile"
+      "Yuni Elegy ",
+      "Vimala > Nile"
     ],
     "recommendedPet": [
-      {"type": "SPD", "name": "Whale"},
-      {"type": "DMG", "name": "Dragon"},
-      {"type": "Link", "name": "Phoenix"}
+      {"type": "SUP", "name": "Illusory Demon"},
+      {"type": "Link", "name": "Star Rider"},
+      {"type": "Link", "name": "Armadon"}
     ]
   },
   {
@@ -62,28 +62,27 @@
     "tier": "Meta",
     "image": "./Images/mortalheart.png",
     "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
+      "ATK": "172k",
+      "DEF": "10194",
+      "HP": "1.74m",
+      "SPD": "108"
     },
-    "description": "",
+    "description": "Fae is the nimbus hero assassin. Overall Great. Massive damage output and good support ability to reduce enemy team speed making you have an edge. After dying once she can trigger free will which makes her a machine gun of attacks dealing true damage and absolutely high crit chance.",
     "recommendedTalisman": [
-      "Fury + Combo",
-      "Berserk + Rapid"
+      "Rapid + Fury",
+      "Berserk + Banner"
     ],
     "recommendedSpirit": [
-      "",
-      ""
+      "Hodell"
     ],
     "recommendedCodex": [
-      "",
-      ""
+      "Mercury Oracle",
+      "Mars Decree",
+      "Vimala > King"	
     ],
     "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
+      {"type": "DMG", "name": "Dragon/Bird"},
+      {"type": "Link", "name": "Lightbringer"}
     ]
   },
   {
@@ -91,160 +90,159 @@
     "tier": "Meta",
     "image": "./Images/ghostlord.png",
     "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
+      "ATK": "126k",
+      "DEF": "10603",
+      "HP": "2.32m",
+      "SPD": "108"
     },
-    "description": "",
+    "description": "Ghost lord is the healer from nimbus series. She can deal very heavy damage depending on how much life she has being a great option for pve and having more nimbus units makes her able to Stun targets as well as remove rage. She is an awesome healer for her ability to save an unit when taking fatal damage being really great for PvP fights.",
     "recommendedTalisman": [
-      "",
-      ""
+      "Toughness + Providence",
+      "Rapid + Affinity"
     ],
     "recommendedSpirit": [
-      "",
-      ""
+      "Cettia"
     ],
     "recommendedCodex": [
-      "",
-      ""
+      "Yuni Elegy > Venus Hymn",
+      "Nile > Vimala"
     ],
     "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
+      {"type": "SUP", "name": "Illusory Demon"},
+      {"type": "Link", "name": "Star Rider"},
+      {"type": "Link", "name": "Owl"}
     ]
   },
   {
     "name": "White Snake",
-    "tier": "",
+    "tier": "SS",
     "image": "./Images/whitesnake.png",
     "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
+      "ATK": "169k",
+      "DEF": "10255",
+      "HP": "1.76m",
+      "SPD": "108"
     },
-    "description": "",
+    "description": "Don't recommend mixing it with Empress so make either of the two your main. <br><br> White snake Bai Suzhen is a ranger unit. She has a place in the meta for being one of the units that could guarantee a victory with her ability to prevent rage regeneration for mid-back row she also gets speed bonuses (Meta), reducing enemy damage and even being able to tank high amounts of critical. Her damage output is very high on PvP due to her true damage basic attack. ",
     "recommendedTalisman": [
-      "",
-      ""
+      "Rapid + Fury",
+      "Life Steal + Combo/CC-Immune"
     ],
     "recommendedSpirit": [
-      "",
-      ""
+      "Johan",
+      "Marcus"
     ],
     "recommendedCodex": [
-      "",
-      ""
+      "Thor Prayer > Mars Decree",
+      "Nile > King"
     ],
     "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
+      {"type": "SPD", "name": "Whale"},
+      {"type": "SUP", "name": "Illusory Demon"},
+      {"type": "Link", "name": "Star Rider"}
     ]
   },
   {
     "name": "Warrior Woman",
-    "tier": "",
+    "tier": "SS",
     "image": "./Images/mulan.png",
     "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
+      "ATK": "110k",
+      "DEF": "10904",
+      "HP": "2.53m",
+      "SPD": "105"
     },
-    "description": "",
+    "description": "The multi attack queen support, mulan. The current strongest warrior unit in the game from nimbus series. She can restore life, gain massives amount of damage reduction, attack row with most enemies repeatedly. Her best qualities is the final damage reduction, front row tank/mid-back row damage support, dodge chance and ability to REMOVE RAGE from enemy units.",
     "recommendedTalisman": [
-      "",
-      ""
+      "Taunt + Rapid",
+      "Providence + Toughness"
     ],
     "recommendedSpirit": [
-      "",
-      ""
+      "Margaret",
+      "Isis"
     ],
     "recommendedCodex": [
-      "",
-      ""
+      "Yuni Elegy > Venus Hymn",
+      "Vimala > Nile"
     ],
     "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
+      {"type": "SUP", "name": "Illusory Demon"},
+      {"type": "Link", "name": "Star Rider"},
+      {"type": "Link", "name": "Armadon"}
     ]
   },
   {
     "name": "Ancient Empress",
-    "tier": "",
+    "tier": "SS",
     "image": "./Images/empress.png",
     "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
+      "ATK": "179k",
+      "DEF": "9895",
+      "HP": "1.69m",
+      "SPD": "108"
     },
-    "description": "",
+    "description": "Ancient empress Zetian can spend her life to deal True damage, accumulate Heyday buffs other Final Bonuses, and invincibility, Zetian basic attack also deals 150% to random units dealing true damage and making the enemy immune to heal. She also does not need much critical invested to her due to passives and has a bunch of damage reduction.",
     "recommendedTalisman": [
-      "",
-      ""
+      "Rapid + Fury",
+      "Life Steal + Combo"
     ],
     "recommendedSpirit": [
-      "",
-      ""
+      "Johan",
+      "Margaret"
     ],
     "recommendedCodex": [
-      "",
-      ""
+      "Thor Prayer > Mars Decree",
+      "King > Nile"
     ],
     "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
+      {"type": "SPD", "name": "Whale"},
+      {"type": "DMG", "name": "Dragon/Bird"},
+      {"type": "Link", "name": "Lightbringer"}
     ]
   },
   {
     "name": "Rainbow Feather",
-    "tier": "",
+    "tier": "SS",
     "image": "./Images/feather.png",
     "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
+      "ATK": "157k",
+      "DEF": "10871",
+      "HP": "1.83m",
+      "SPD": "108"
     },
     "description": "",
     "recommendedTalisman": [
-      "",
-      ""
+      "Rapid + Affinity",
+      "Toughness + Providence"
     ],
     "recommendedSpirit": [
-      "",
-      ""
+      "Cettia",
+      "Margaret"
     ],
     "recommendedCodex": [
-      "",
-      ""
+      "Venus Hymn",
+      "Vimala"
     ],
     "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
+      {"type": "SUP", "name": "Illusory Demon"},
+      {"type": "SUP", "name": "Bunny"},
+      {"type": "Link", "name": "Star Rider"}
     ]
   },
   {
     "name": "Buddhist Saint",
-    "tier": "",
+    "tier": "SS",
     "image": "./Images/buddist.png",
     "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
+      "ATK": "104k",
+      "DEF": "11330",
+      "HP": "2.58m",
+      "SPD": "105"
     },
-    "description": "",
+    "description": "Buddhist is good for his ability to tank and go immortal during combat, he can also debuff enemies to get damaged after hitting allies alongside with his innnate damage deflection and the ability to taunt enemy units making them only able to basic hit. His damage reduction bonus is also highly considerable.",
     "recommendedTalisman": [
-      "",
-      ""
+      "Earthen + Deflect",
+      "Toughness + Providence"
     ],
     "recommendedSpirit": [
       "",

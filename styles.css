@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     transition: background-color 0.3s, color 0.3s;
+    padding-top: 60px; /* Adjust this value based on your header's height */
 }
 
 .container {
@@ -20,6 +21,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 0.5em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1001; /* Increased z-index to be above sidebar */
+    height: 60px; /* Set a fixed height for the header */
+    box-sizing: border-box;
 }
 
 header h1 {
@@ -31,13 +40,14 @@ header h1 {
 /* Sidebar styles */
 #sidebar {
     position: fixed;
-    top: 0;
+    top: 60px; /* Match the header's height */
     left: -250px;
     width: 250px;
-    height: 100%;
+    height: calc(100% - 60px); /* Subtract the header's height */
     background-color: #f1f1f1;
     transition: left 0.3s;
     z-index: 1000;
+    overflow-y: auto; /* Allow scrolling within sidebar if content is too long */
 }
 
 #sidebar.active {
@@ -47,6 +57,7 @@ header h1 {
 #sidebar ul {
     list-style-type: none;
     padding: 0;
+    margin-top: 0; /* Remove default top margin */
 }
 
 #sidebar ul li {
@@ -108,28 +119,41 @@ header h1 {
 }
 
 .hero-name {
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: bold;
 }
 
 .hero-rating {
-    font-style: italic;
     color: #666;
 }
 
 .detail-button {
-    background-color: #4CAF50;
+    background-color: #3498db;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 8px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 600;
     margin-top: auto;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 20px;
     align-self: flex-start;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.detail-button:hover {
+    background-color: #2980b9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.detail-button:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .hero-details {
@@ -196,17 +220,28 @@ body.dark-mode .hero-details {
 }
 
 #dark-mode-toggle {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background-color: #333;
+    position: fixed;
+    top: 10px;
+    right: 60px;
+    background-color: transparent;
     color: white;
-    padding: 10px;
+    padding: 5px 10px;
     border-radius: 5px;
+    z-index: 1002;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#dark-mode-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode #dark-mode-toggle {
+    color: #f1f1f1;
 }
 
 #sidebar-content {
-    height: calc(100% - 80px);
+    height: 100%;
     overflow-y: auto;
 }
 
@@ -220,6 +255,7 @@ body.dark-mode .hero-details {
     position: fixed;
     bottom: 0;
     width: 100%;
+    z-index: 1002; 
 }
 
 body.dark-mode #disclaimer {
@@ -260,4 +296,113 @@ body.dark-mode #disclaimer-info h2 {
 
 body.dark-mode #disclaimer-info p {
     color: #ced4da;
+}
+
+#upgrade-requirements h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.upgrade-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0 15px;
+}
+
+.upgrade-buttons button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 10px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #333;
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+.upgrade-buttons button:before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.upgrade-buttons button:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.upgrade-buttons button:active {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body.dark-mode #upgrade-requirements h2 {
+    color: #f1f1f1;
+}
+
+body.dark-mode .upgrade-buttons button {
+    background-color: #3a3a3a;
+    color: #f1f1f1;
+}
+
+body.dark-mode .upgrade-buttons button:hover {
+    background-color: #4a4a4a;
+}
+
+/* Add icons for each button (replace with actual icon paths) */
+.upgrade-buttons button[onclick*="herostar"]:before { background-image: url('path/to/herostar-icon.png'); }
+.upgrade-buttons button[onclick*="potential"]:before { background-image: url('path/to/potential-icon.png'); }
+.upgrade-buttons button[onclick*="transfer"]:before { background-image: url('path/to/transfer-icon.png'); }
+.upgrade-buttons button[onclick*="upanishad"]:before { background-image: url('path/to/upanishad-icon.png'); }
+.upgrade-buttons button[onclick*="rebirth"]:before { background-image: url('path/to/rebirth-icon.png'); }
+.upgrade-buttons button[onclick*="divinity"]:before { background-image: url('path/to/divinity-icon.png'); }
+.upgrade-buttons button[onclick*="runestone"]:before { background-image: url('path/to/runestone-icon.png'); }
+.upgrade-buttons button[onclick*="talisman"]:before { background-image: url('path/to/talisman-icon.png'); }
+.upgrade-buttons button[onclick*="spirits"]:before { background-image: url('path/to/spirits-icon.png'); }
+.upgrade-buttons button[onclick*="starhubgear"]:before { background-image: url('path/to/starhubgear-icon.png'); }
+.upgrade-buttons button[onclick*="treasure"]:before { background-image: url('path/to/treasure-icon.png'); }
+.upgrade-buttons button[onclick*="pet"]:before { background-image: url('path/to/pet-icon.png'); }
+.upgrade-buttons button[onclick*="codex"]:before { background-image: url('path/to/codex-icon.png'); }
+.upgrade-buttons button[onclick*="energysource"]:before { background-image: url('path/to/energysource-icon.png'); }
+.upgrade-buttons button[onclick*="artifact"]:before { background-image: url('path/to/artifact-icon.png'); }
+.upgrade-buttons button[onclick*="goddesskin"]:before { background-image: url('path/to/goddesskin-icon.png'); }
+
+@media (max-width: 1024px) {
+    .upgrade-buttons {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .upgrade-buttons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .upgrade-buttons {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

@@ -5,6 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heroes of Crown: Legends Guide</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .upgrade-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .upgrade-buttons button {
+            padding: 10px;
+            cursor: pointer;
+        }
+        .upgrade-image-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+        .upgrade-image-container {
+            position: relative;
+            max-width: 90%;
+            max-height: 90%;
+        }
+        #upgrade-image {
+            max-width: 100%;
+            max-height: 90vh;
+            object-fit: contain;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -16,13 +50,13 @@
         <button id="close-sidebar">✕</button>
         <div id="sidebar-content">
             <ul>
-                <li><a href="#welcome" onclick="openTab(event, 'welcome')">Welcome</a></li>
-                <li><a href="#heroes" onclick="openTab(event, 'heroes')">Heroes</a></li>
-                <li><a href="#gear" onclick="openTab(event, 'gear')">Gear</a></li>
-                <li><a href="#equipment" onclick="openTab(event, 'equipment')">Equipment</a></li>
-                <li><a href="#upgrade-requirements" onclick="openTab(event, 'upgrade-requirements')">Upgrade Requirements</a></li>
-                <li><a href="#talisman" onclick="openTab(event, 'talisman')">Talisman</a></li>
-                <li><a href="#disclaimer" onclick="openTab(event, 'disclaimer-info')">Disclaimer</a></li>
+                <li><a href="#" onclick="openTab(event, 'welcome'); closeSidebar();">Welcome</a></li>
+                <li><a href="#" onclick="openTab(event, 'heroes'); closeSidebar();">Heroes</a></li>
+                <li><a href="#" onclick="openTab(event, 'gear'); closeSidebar();">Gear</a></li>
+                <li><a href="#" onclick="openTab(event, 'equipment'); closeSidebar();">Equipment</a></li>
+                <li><a href="#" onclick="openTab(event, 'upgrade-requirements'); closeSidebar();">Upgrade Requirements</a></li>
+                <li><a href="#" onclick="openTab(event, 'talisman'); closeSidebar();">Talisman</a></li>
+                <li><a href="#" onclick="openTab(event, 'disclaimer-info'); closeSidebar();">Disclaimer</a></li>
             </ul>
         </div>
         <button id="dark-mode-toggle">Toggle Dark Mode</button>
@@ -51,7 +85,24 @@
 
         <div id="upgrade-requirements" class="tab-content">
             <h2>Upgrade Requirements</h2>
-            <p>Upgrade requirement information will be shown here.</p>
+            <div class="upgrade-buttons">
+                <button onclick="showUpgradeImage('./Images/herostar.png')">Hero Star</button>
+                <button onclick="showUpgradeImage('./Images/potential.png')">Potential</button>
+                <button onclick="showUpgradeImage('./Images/transfer.png')">Transfer</button>
+                <button onclick="showUpgradeImage('./Images/upanishad.png')">Upanishad</button>
+                <button onclick="showUpgradeImage('./Images/rebirth.png')">Rebirth</button>
+                <button onclick="showUpgradeImage('./Images/divinity.png')">Divinity</button>
+                <button onclick="showUpgradeImage('./Images/runestone.png')">Runestone</button>
+                <button onclick="showUpgradeImage('./Images/talisman.png')">Talisman</button>
+                <button onclick="showUpgradeImage('./Images/spirits.png')">Spirits</button>
+                <button onclick="showUpgradeImage('./Images/starhubgear.png')">Star Hub Gear</button>
+                <button onclick="showUpgradeImage('./Images/treasure.png')">Treasure</button>
+                <button onclick="showUpgradeImage('./Images/pet.png')">Pet</button>
+                <button onclick="showUpgradeImage('./Images/codex.png')">Codex</button>
+                <button onclick="showUpgradeImage('./Images/energysource.png')">Energy Source</button>
+                <button onclick="showUpgradeImage('./Images/artifact.png')">Artifact</button>
+                <button onclick="showUpgradeImage('./Images/goddesskin.png')">Goddess Skin</button>
+            </div>
         </div>
 
         <div id="talisman" class="tab-content">
@@ -61,7 +112,7 @@
 
         <div id="disclaimer-info" class="tab-content">
             <h2>Disclaimer</h2>
-            <p>The "Heroes of Crown Guide" site is not affiliated with Ujoy</p>
+            <p>The "Heroes of Crown Guide" site is not affiliated with Ujoy.</p>
             <p>The "Heroes of Crown Guide" site is an unofficial resource made by dedicated community members of the game 'Heroes of Crown: Legends', for free public viewing.</p>
             <p>All contributors of this site do not gain any monetary profit from the The "Heroes of Crown Guide" site, nor any other compensation. All Hero images and information is property of Ujoy, and their respective copyright holders. No copyright infringement is meant by us.</p>
             <p>This spreadsheet is not affiliated with any website, company, or any other form of media.</p>
@@ -72,6 +123,12 @@
 
     <div id="disclaimer">
         This site is not affiliated with uJoy.
+    </div>
+
+    <div id="upgrade-image-overlay" class="upgrade-image-overlay">
+        <div class="upgrade-image-container">
+            <img id="upgrade-image" src="" alt="Upgrade Image">
+        </div>
     </div>
 
     <script src="script.js"></script>
@@ -125,6 +182,47 @@
                     }
                 });
             });
+
+        function showUpgradeImage(imagePath) {
+            const overlay = document.getElementById('upgrade-image-overlay');
+            const image = document.getElementById('upgrade-image');
+            image.src = imagePath;
+            overlay.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeUpgradeImage() {
+            const overlay = document.getElementById('upgrade-image-overlay');
+            overlay.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        // Add event listener to close image when clicking outside
+        document.getElementById('upgrade-image-overlay').addEventListener('click', function(event) {
+            if (event.target === this) {
+                closeUpgradeImage();
+            }
+        });
+
+        function openTab(event, tabName) {
+            event.preventDefault();
+            var i, tabContent, tabLinks;
+            tabContent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabContent.length; i++) {
+                tabContent[i].style.display = "none";
+            }
+            tabLinks = document.getElementsByTagName("a");
+            for (i = 0; i < tabLinks.length; i++) {
+                tabLinks[i].className = tabLinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            event.currentTarget.className += " active";
+            window.scrollTo(0, 0);
+        }
+
+        function closeSidebar() {
+            document.getElementById('sidebar').classList.remove('active');
+        }
     </script>
 </body>
 </html>
