@@ -1,0 +1,1483 @@
+[
+  {
+    "name": "Mankind Creator",
+    "tier": "Meta",
+    "image": "./Images/nuwa.png",
+    "stats": {
+      "ATK": "179k",
+      "DEF": "9845",
+      "HP": "1.69m",
+      "SPD": "108"
+    },
+    "description": "Nuwa, the mankind creator last Nimbus Series hero with super high damage input and flexibility within the fight being able to chain together the nimbus heroes.",
+    "recommendedTalisman": [
+      "Rapid + Fury",
+      "Life Steal + Combo"
+    ],
+    "recommendedSpirit": [
+      "Johan",
+      "Margaret"
+    ],
+    "recommendedCodex": [
+      "Thor Prayer > Mars Decree",
+      "Nile > King"
+    ],
+    "recommendedPet": [
+      {"type": "SPD", "name": "Whale"},
+      {"type": "DMG", "name": "Dragon/Bird"},
+      {"type": "Link", "name": "Lightbringer"}
+    ]
+  },
+  {
+    "name": "Changeling",
+    "tier": "Meta",
+    "image": "./Images/suth.png",
+    "stats": {
+      "ATK": "180k",
+      "DEF": "9900",
+      "HP": "1.7m",
+      "SPD": "110"
+    },
+    "description": "Suth, a powerful hero with exceptional abilities in both PvE and PvP scenarios.",
+    "recommendedTalisman": [
+      "Fury + Combo",
+      "Life Steal + Rapid"
+    ],
+    "recommendedSpirit": [
+      "Johan",
+      "Margaret"
+    ],
+    "recommendedCodex": [
+      "Mars Decree > Thor Prayer",
+      "King > Nile"
+    ],
+    "recommendedPet": [
+      {"type": "SPD", "name": "Whale"},
+      {"type": "DMG", "name": "Dragon"},
+      {"type": "Link", "name": "Phoenix"}
+    ]
+  },
+  {
+    "name": "Mortal Heart",
+    "tier": "Meta",
+    "image": "./Images/mortalheart.png",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "Fury + Combo",
+      "Berserk + Rapid"
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "Ghost Lord",
+    "tier": "Meta",
+    "image": "./Images/ghostlord.png",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "White Snake",
+    "tier": "",
+    "image": "./Images/whitesnake.png",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "Warrior Woman",
+    "tier": "",
+    "image": "./Images/mulan.png",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "Ancient Empress",
+    "tier": "",
+    "image": "./Images/empress.png",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "Rainbow Feather",
+    "tier": "",
+    "image": "./Images/feather.png",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "Buddhist Saint",
+    "tier": "",
+    "image": "./Images/buddist.png",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "Lotus Poet",
+    "tier": "",
+    "image": "./Images/lotuspoet.png",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "Heady Incense",
+    "tier": "",
+    "image": "./Images/blossombeauty.png",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "Spirit Puppet",
+    "tier": "",
+    "image": "./Images/spiritpuppet.png",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "Celestial Lux",
+    "tier": "",
+    "image": "./Images/celestialux.png",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "Lotus Dance",
+    "tier": "",
+    "image": "./Images/lotusdance.png",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "Twilight Priestess",
+    "tier": "",
+    "image": "./Images/heather.png",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "Dragon Lord",
+    "tier": "",
+    "image": "./Images/dragonlord.png",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "Melody Enchantress",
+    "tier": "",
+    "image": "./Images/melodyenchantress.png",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "Daylight Spear",
+    "tier": "",
+    "image": "./Images/daylight.png",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  },
+  {
+    "name": "",
+    "tier": "",
+    "image": "",
+    "stats": {
+      "ATK": "",
+      "DEF": "",
+      "HP": "",
+      "SPD": ""
+    },
+    "description": "",
+    "recommendedTalisman": [
+      "",
+      ""
+    ],
+    "recommendedSpirit": [
+      "",
+      ""
+    ],
+    "recommendedCodex": [
+      "",
+      ""
+    ],
+    "recommendedPet": [
+      {"type": "", "name": ""},
+      {"type": "", "name": ""},
+      {"type": "", "name": ""}
+    ]
+  }
+]
+
+
