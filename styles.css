@@ -420,6 +420,127 @@ body.dark-mode #disclaimer-info p {
     margin-bottom: 2em;
 }
 
+#hero-filter {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#hero-filter label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333;
+}
+
+#tier-select {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#tier-select:hover {
+    border-color: #aaa;
+}
+
+#tier-select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+body.dark-mode #hero-filter label {
+    color: #f1f1f1;
+}
+
+body.dark-mode #tier-select {
+    background-color: #3a3a3a;
+    color: #f1f1f1;
+    border-color: #555;
+}
+
+body.dark-mode #tier-select:hover {
+    border-color: #777;
+}
+
+body.dark-mode #tier-select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+/* Hero tier colors */
+.hero-rating {
+    font-weight: bold;
+}
+
+/* Remove the ::before and ::after pseudo-elements */
+.hero-rating[data-tier="Meta"] {
+    color: #4B0082; /* Darker Purple (Indigo) */
+}
+
+.hero-rating[data-tier="SS"] {
+    color: #FF0000; /* Red */
+}
+
+.hero-rating[data-tier="S+"] {
+    color: #FFA500; /* Orange */
+}
+
+.hero-rating[data-tier="S"] {
+    color: #FFD700; /* Yellow */
+}
+
+.hero-rating[data-tier="A+"] {
+    color: #008000; /* Green */
+}
+
+.hero-rating[data-tier="A"] {
+    color: #90EE90; /* Light Green */
+}
+
+.hero-rating[data-tier="B"] {
+    color: #0000FF; /* Blue */
+}
+
+.hero-rating[data-tier="Food"] {
+    color: #808080; /* Gray */
+}
+
+/* Dark mode adjustments */
+body.dark-mode .hero-rating[data-tier="Meta"] {
+    color: #9370DB; /* Medium Purple (slightly lighter for dark mode) */
+}
+
+body.dark-mode .hero-rating[data-tier="SS"] {
+    color: #FF6666; /* Lighter Red */
+}
+
+body.dark-mode .hero-rating[data-tier="S+"] {
+    color: #FFB366; /* Lighter Orange */
+}
+
+body.dark-mode .hero-rating[data-tier="S"] {
+    color: #FFFF66; /* Lighter Yellow */
+}
+
+body.dark-mode .hero-rating[data-tier="A+"] {
+    color: #66FF66; /* Lighter Green */
+}
+
+body.dark-mode .hero-rating[data-tier="A"] {
+    color: #98FB98; /* Lighter Light Green */
+}
+
+body.dark-mode .hero-rating[data-tier="B"] {
+    color: #6666FF; /* Lighter Blue */
+}
+
+body.dark-mode .hero-rating[data-tier="Food"] {
+    color: #C0C0C0; /* Lighter Gray */
+}
 
 .upgrade-buttons button:hover {
     background-color: #f0f0f0;
@@ -502,4 +623,37 @@ body.dark-mode .upgrade-buttons button:hover {
     max-width: 100%;
     max-height: 90vh;
     object-fit: contain;
+}
+
+.talisman-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.talisman-images img {
+    width: calc(50% - 10px);
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.talisman-images img:hover {
+    transform: scale(1.05);
+}
+
+.talisman-images h2,
+#talisman > h2 {
+    width: 100%;
+    text-align: center;
+    color: #517fad; /* Changed color to a blue shade */
+    margin: 20px auto;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
 }

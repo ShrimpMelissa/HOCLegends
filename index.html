@@ -25,6 +25,23 @@
             text-align: center;
             font-size: 12px; /* Adjust as needed */
         }
+        #hero-filter {
+            margin-bottom: 20px;
+        }
+        #hero-filter select {
+            padding: 5px;
+            font-size: 16px;
+        }
+        .talisman-images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .talisman-images img {
+            max-width: 200px;
+            height: auto;
+        }
     </style>
 </head>
 <body>
@@ -54,10 +71,24 @@
             <h2>Welcome!</h2>
             <p>Please check disclaimers and rating before commenting!</p>
             <p>If you would like to help or point out something, please reach out to me on <b>Discord: Shrimpblue</b></p>
-            <img src="sharkie.png" alt="">
+            <img src="/Images/sharkie.png" alt="">
         </div>
 
         <div id="heroes" class="tab-content">
+            <div id="hero-filter">
+                <label for="tier-select">Filter by Tier:</label>
+                <select id="tier-select" onchange="filterHeroes()">
+                    <option value="all">All</option>
+                    <option value="Meta">Meta</option>
+                    <option value="SS">SS</option>
+                    <option value="S+">S+</option>
+                    <option value="S">S</option>
+                    <option value="A+">A+</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="Food">Food</option>
+                </select>
+            </div>
             <div id="hero-container"></div>
         </div>
 
@@ -95,7 +126,14 @@
 
         <div id="talisman" class="tab-content">
             <h2>Talisman</h2>
-            <p>Talisman information will be displayed here.</p>
+            <div class="talisman-images">
+                <img src="./Images/DMG1.png" alt="DMG1">
+                <img src="./Images/DMG2.png" alt="DMG2">
+                <img src="./Images/SURV1.png" alt="SURV1">
+                <img src="./Images/SURV2.png" alt="SURV2">
+                <img src="./Images/SPC1.png" alt="SPC1">
+                <img src="./Images/SPC2.png" alt="SPC2">
+            </div>
         </div>
 
         <div id="disclaimer-info" class="tab-content">
@@ -120,7 +158,31 @@
     </div>
 
     <script src="script.js"></script>
+    <script>
+    function filterHeroes() {
+        const selectedTier = document.getElementById('tier-select').value;
+        const heroSections = document.querySelectorAll('.hero-section');
+        
+        heroSections.forEach(section => {
+            const heroTier = section.querySelector('.hero-rating').textContent.split(': ')[1];
+            if (selectedTier === 'all' || heroTier === selectedTier) {
+                section.style.display = 'block';
+            } else {
+                section.style.display = 'none';
+            }
+        });
+    }
 
+    // Call filterHeroes after the hero data is loaded
+    document.addEventListener('DOMContentLoaded', () => {
+        fetch('heroes.json')
+            .then(response => response.json())
+            .then(data => {
+                // Existing code to create hero sections...
+                // After creating all hero sections, call filterHeroes
+                filterHeroes();
+            });
+    });
     </script>
 </body>
 </html>

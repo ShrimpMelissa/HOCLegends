@@ -53,8 +53,35 @@
     ],
     "recommendedPet": [
       {"type": "SUP", "name": "Illusory Demon"},
-      {"type": "Link", "name": "Star Rider"},
-      {"type": "Link", "name": "Armadon"}
+      {"type": "Link", "name": "Star Rider/Armadon"}
+    ]
+  },
+  {
+    "name": "Dark Knight",
+    "tier": "Meta",
+    "image": "./Images/darknight.png",
+    "stats": {
+      "ATK": "100k",
+      "DEF": "10720",
+      "HP": "2.50m",
+      "SPD": "103"
+    },
+    "description": "<b>Divinity Only -- if not replace for Warrior Woman.</b> <br><br> The current strongest defensive hero in the game with DIVINITY providing a wide variety of buffs, damage reduction, shielding, dharmakaya, ignoring anti-heal effects, casting skills without rage, team final damage reduction and so on. Without Divinity she places outside of meta ",
+    "recommendedTalisman": [
+      "Toughness + Providence",
+      "Rapid + Affinity"
+    ],
+    "recommendedSpirit": [
+      "Isis",
+      "Marcus"
+    ],
+    "recommendedCodex": [
+      "Yuni Elegy ",
+      "Vimala > Nile"
+    ],
+    "recommendedPet": [
+      {"type": "SUP", "name": "Illusory Demon"},
+      {"type": "SUP", "name": "Star Rider"}
     ]
   },
   {
@@ -109,8 +136,7 @@
     ],
     "recommendedPet": [
       {"type": "SUP", "name": "Illusory Demon"},
-      {"type": "Link", "name": "Star Rider"},
-      {"type": "Link", "name": "Owl"}
+      {"type": "Link", "name": "Star Rider/Owl"} 
     ]
   },
   {
@@ -167,8 +193,7 @@
     ],
     "recommendedPet": [
       {"type": "SUP", "name": "Illusory Demon"},
-      {"type": "Link", "name": "Star Rider"},
-      {"type": "Link", "name": "Armadon"}
+      {"type": "Link", "name": "Star Rider/Armadon"}
     ]
   },
   {
@@ -245,17 +270,17 @@
       "Toughness + Providence"
     ],
     "recommendedSpirit": [
-      "",
-      ""
+      "Marcus",
+      "Margaret"
     ],
     "recommendedCodex": [
-      "",
-      ""
+      "Yuni Elegy > Venus Hymn",
+      "Vimala > Nile"
     ],
     "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
+      {"type": "SUP", "name": "Illusory Demon"},
+      {"type": "SUP", "name": "Hellspawn"},
+      {"type": "Link", "name": "Star Rider"}
     ]
   },
   {
@@ -263,28 +288,28 @@
     "tier": "S+",
     "image": "./Images/lotuspoet.png",
     "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
+      "ATK": "169k",
+      "DEF": "10255",
+      "HP": "1.76m",
+      "SPD": "108"
     },
-    "description": "",
+    "description": "The lotus poet is a very strong support hero with powerful anti-resurrection effect.",
     "recommendedTalisman": [
-      "",
-      ""
+      "Rapid + Fury",
+      "Life Steal + Combo"
     ],
     "recommendedSpirit": [
-      "",
-      ""
+      "Johan",
+      "Margaret"
     ],
     "recommendedCodex": [
-      "",
-      ""
+      "Mercury Oracle",
+      "King > Nile"
     ],
     "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
+      {"type": "SPD", "name": "Whale"},
+      {"type": "SUP", "name": "Illusory Demon"},
+      {"type": "Link", "name": "Star Rider"}
     ]
   },
   {
@@ -292,115 +317,56 @@
     "tier": "S+",
     "image": "./Images/blossombeauty.png",
     "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
+      "ATK": "172k",
+      "DEF": "10194",
+      "HP": "1.74m",
+      "SPD": "108"
     },
-    "description": "",
+    "description": "Not much description to give. Heyday series assassin with pretty attacks.",
     "recommendedTalisman": [
-      "",
-      ""
+      "Rapid + Fury",
+      "Life Steal + Combo"
     ],
     "recommendedSpirit": [
-      "",
-      ""
+      "Hodell",
+      "Margaret"
     ],
     "recommendedCodex": [
-      "",
-      ""
+      "Mars Decree",
+      "King > Nile"
     ],
     "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
+      {"type": "DMG", "name": "Dragon/Bird"},
+      {"type": "Link", "name": "Lightbringer"}
     ]
   },
   {
     "name": "Spirit Puppet",
-    "tier": "",
+    "tier": "S+",
     "image": "./Images/spiritpuppet.png",
     "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
+      "ATK": "104k",
+      "DEF": "11009",
+      "HP": "2.54m",
+      "SPD": "105"
     },
-    "description": "",
+    "description": "Second team unit. She is a tank that can absorb a lot of damage and has a wide variety of damage reduction.",
     "recommendedTalisman": [
-      "",
-      ""
+      "Toughness + Providence",
+      "Earthen + Deflect"
     ],
     "recommendedSpirit": [
-      "",
-      ""
+      "Marcus",
+      "Margaret"
     ],
     "recommendedCodex": [
-      "",
-      ""
+      "Yuni Elegy > Venus Hymn",
+      "Vimala > Nile"
     ],
     "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
-    ]
-  },
-  {
-    "name": "Celestial Lux",
-    "tier": "S",
-    "image": "./Images/celestialux.png",
-    "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
-    },
-    "description": "",
-    "recommendedTalisman": [
-      "",
-      ""
-    ],
-    "recommendedSpirit": [
-      "",
-      ""
-    ],
-    "recommendedCodex": [
-      "",
-      ""
-    ],
-    "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
-    ]
-  },
-  {
-    "name": "Lotus Dance",
-    "tier": "S",
-    "image": "./Images/lotusdance.png",
-    "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
-    },
-    "description": "",
-    "recommendedTalisman": [
-      "",
-      ""
-    ],
-    "recommendedSpirit": [
-      "",
-      ""
-    ],
-    "recommendedCodex": [
-      "",
-      ""
-    ],
-    "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
+      {"type": "SUP", "name": "Illusory Demon"},
+      {"type": "SUP", "name": "Hellspawn"},
+      {"type": "Link", "name": "Star Rider"}
     ]
   },
   {
@@ -408,28 +374,86 @@
     "tier": "S+",
     "image": "./Images/heather.png",
     "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
+      "ATK": "163k",
+      "DEF": "10511",
+      "HP": "1.79m",
+      "SPD": "108"
     },
-    "description": "",
+    "description": "The Twilight Priestess is a very unique healer that can go invisible and immortal. She starts with a attack debuff, can resurrect and heal plenty of life. She is a great healer for secondary PvP fights.",
     "recommendedTalisman": [
-      "",
-      ""
+      "Rapid + Affinity",
+      "Toughness + Providence"
     ],
     "recommendedSpirit": [
-      "",
-      ""
+      "Cettia",
+      "Margaret"
     ],
     "recommendedCodex": [
-      "",
-      ""
+      "Venus Hymn",
+      "Nile > Vimala"
     ],
     "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
+      {"type": "SUP", "name": "Illusory Demon"},
+      {"type": "SUP", "name": "Bunny"},
+      {"type": "Link", "name": "Star Rider/Owl"}
+    ]
+  },
+  {
+    "name": "Celestial Lux",
+    "tier": "S",
+    "image": "./Images/celestialux.png",
+    "stats": {
+      "ATK": "169k",
+      "DEF": "10255",
+      "HP": "1.76m",
+      "SPD": "118"
+    },
+    "description": "Celestial lux is a ranger that can spread a lot of debuff, specially fire one. She is specially speedy.",
+    "recommendedTalisman": [
+      "Rapid + Fury",
+      "Life Steal + Providence"
+    ],
+    "recommendedSpirit": [
+      "Johan",
+      "Margaret"
+    ],
+    "recommendedCodex": [
+      "Mars Decree",
+      "King"
+    ],
+    "recommendedPet": [
+      {"type": "SPD", "name": "Whale"},
+      {"type": "DMG", "name": "Dragon/Bird"},
+      {"type": "Link", "name": "Lightbringer"}
+    ]
+  },
+  {
+    "name": "Lotus Dance",
+    "tier": "S+",
+    "image": "./Images/lotusdance.png",
+    "stats": {
+      "ATK": "172k",
+      "DEF": "10276",
+      "HP": "1.73m",
+      "SPD": "108"
+    },
+    "description": "No comments for now.",
+    "recommendedTalisman": [
+      "Rapid + Fury",
+      "Life Steal + CC-Immune"
+    ],
+    "recommendedSpirit": [
+      "Johan",
+      "Margaret"
+    ],
+    "recommendedCodex": [
+      "Thor Prayer > Mars Decree",
+      "King > Nile"
+    ],
+    "recommendedPet": [
+      {"type": "SPD", "name": "Whale"},
+      {"type": "DMG", "name": "Dragon/Bird"},
+      {"type": "Link", "name": "Lightbringer"}
     ]
   },
   {
@@ -437,28 +461,28 @@
     "tier": "S",
     "image": "./Images/dragonlord.png",
     "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
+      "ATK": "173k",
+      "DEF": "9286",
+      "HP": "1.64m",
+      "SPD": "108"
     },
-    "description": "",
+    "description": "No comments for now.",
     "recommendedTalisman": [
-      "",
-      ""
+      "Rapid + Fury",
+      "Life Steal + Combo"
     ],
     "recommendedSpirit": [
-      "",
-      ""
+      "Johan  ",
+      "Margaret"
     ],
     "recommendedCodex": [
-      "",
-      ""
+      "Thor Prayer > Mars Decree",
+      "King > Nile"
     ],
     "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
+      {"type": "SPD", "name": "Whale"},
+      {"type": "DMG", "name": "Dragon/Bird"},
+      {"type": "Link", "name": "Lightbringer"}
     ]
   },
   {
@@ -466,28 +490,27 @@
     "tier": "A+",
     "image": "./Images/melodyenchantress.png",
     "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
+      "ATK": "100k",
+      "DEF": "10722",
+      "HP": "2.57m",
+      "SPD": "105"
     },
-    "description": "",
+    "description": "No comments for now.",
     "recommendedTalisman": [
-      "",
-      ""
+      "Toughness + Providence",
+      "Rapid + Choice"
     ],
     "recommendedSpirit": [
-      "",
-      ""
+      "Margaret",
+      "Isis"
     ],
     "recommendedCodex": [
-      "",
-      ""
+      "Yuni Elegy",
+      "Nile > Vimala"
     ],
     "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
+      {"type": "SUP", "name": "Illusory Demon"},
+      {"type": "SUP", "name": "Star Rider/Armadon"}
     ]
   },
   {
@@ -495,144 +518,109 @@
     "tier": "A",
     "image": "./Images/daylight.png",
     "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
+      "ATK": "172k",
+      "DEF": "10194",
+      "HP": "1.74m",
+      "SPD": "108"
     },
-    "description": "",
+    "description": "No comments for now.",
     "recommendedTalisman": [
-      "",
-      ""
+      "Don't invest",
+      "Don't invest"
     ],
     "recommendedSpirit": [
-      "",
-      ""
+      "Dont invest",
+      "Dont invest"
     ],
     "recommendedCodex": [
-      "",
-      ""
+      "Dont invest",
+      "Dont invest"
     ],
     "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
+      {"type": "X", "name": "X"},
+      {"type": "X", "name": "X"},
+      {"type": "X", "name": "X"}
     ]
   },
   {
-    "name": "",
-    "tier": "",
-    "image": "",
+    "name": "Fallen Shura",
+    "tier": "S",
+    "image": "./Images/reinhardt.png",
     "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
+      "ATK": "176k",
+      "DEF": "9961",
+      "HP": "1.72m",
+      "SPD": "110"
     },
-    "description": "",
+    "description": "Fallen Shura, the strongest chaos hero in the game with a wide variety of attacks, the only one worth investing of the chaos heroes.",
     "recommendedTalisman": [
-      "",
-      ""
+      "Rapid + Fury",
+      "Life Steal + Combo"
     ],
     "recommendedSpirit": [
-      "",
-      ""
+      "Hodell"
     ],
     "recommendedCodex": [
-      "",
-      ""
+      "Mercury Oracle",
+      "King > Nile"
     ],
     "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
+      {"type": "DMG", "name": "Dragon/Bird"},
+      {"type": "Link", "name": "Lightbringer"}
     ]
   },
   {
-    "name": "",
-    "tier": "",
-    "image": "",
+    "name": "Sparkling Wanderer",
+    "tier": "A+",
+    "image": "./Images/sparkling.png",
     "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
+      "ATK": "155k",
+      "DEF": "10102",
+      "HP": "1.75m",
+      "SPD": "108"
     },
-    "description": "",
+    "description": "The sparkling wanderer is a very strong support hero with a wide variety of of debuffs and immunity effects.",
     "recommendedTalisman": [
-      "",
-      ""
+      "Earthen + Deflect",
+      "Weaken + Restrict"
     ],
     "recommendedSpirit": [
-      "",
-      ""
+      "Cettia"
     ],
     "recommendedCodex": [
-      "",
-      ""
+      "Vimala",
+      "Venus Hymn"
     ],
     "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
+      {"type": "SUP", "name": "Illusory Demon"},
+      {"type": "SUP", "name": "Armadon"}
     ]
   },
   {
-    "name": "",
-    "tier": "",
-    "image": "",
+    "name": "Ninetails",
+    "tier": "S",
+    "image": "./Images/ninetails.png",
     "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
+      "ATK": "154k",
+      "DEF": "10128",
+      "HP": "1.78m",
+      "SPD": "108"
     },
-    "description": "",
+    "description": "No comments for now. Third team unit.",
     "recommendedTalisman": [
-      "",
-      ""
+      "Toughness + Providence",
+      "Rapid + Fury"
     ],
     "recommendedSpirit": [
-      "",
-      ""
+      "Cettia"
     ],
     "recommendedCodex": [
-      "",
-      ""
+      "Yuni Elegy",
+      "Nile"
     ],
     "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
-    ]
-  },
-  {
-    "name": "",
-    "tier": "",
-    "image": "",
-    "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
-    },
-    "description": "",
-    "recommendedTalisman": [
-      "",
-      ""
-    ],
-    "recommendedSpirit": [
-      "",
-      ""
-    ],
-    "recommendedCodex": [
-      "",
-      ""
-    ],
-    "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
+      {"type": "SUP", "name": "Illusory Demon"},
+      {"type": "SUP", "name": "Star Rider/Owl"}
     ]
   },
   {

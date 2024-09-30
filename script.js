@@ -106,6 +106,13 @@ fetch('heroes.json')
                 heroContainer.appendChild(heroSection);
             }
         });
+    }).then(() => {
+        // Add data-tier attribute to hero-rating elements
+        const heroRatings = document.querySelectorAll('.hero-rating');
+        heroRatings.forEach(rating => {
+            const tier = rating.textContent.split(': ')[1];
+            rating.setAttribute('data-tier', tier);
+        });
     });
 
 function showUpgradeImage(imagePath) {
@@ -121,6 +128,35 @@ function closeUpgradeImage() {
     overlay.style.display = 'none';
     document.body.style.overflow = 'auto';
 }
+
+function showTalismanImage(imagePath) {
+    const overlay = document.getElementById('upgrade-image-overlay');
+    const image = document.getElementById('upgrade-image');
+    image.src = imagePath;
+    overlay.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+}
+
+function closeTalismanImage() {
+    const overlay = document.getElementById('upgrade-image-overlay');
+    overlay.style.display = 'none';
+    document.body.style.overflow = 'auto';
+}
+
+// Add click event listeners to talisman images
+document.querySelectorAll('.talisman-images img').forEach(img => {
+    img.addEventListener('click', function() {
+        showTalismanImage(this.src);
+    });
+});
+
+// Add event listener to close image when clicking outside
+document.getElementById('upgrade-image-overlay').addEventListener('click', function(event) {
+    if (event.target === this) {
+        closeTalismanImage();
+    }
+});
+
 
 // Add event listener to close image when clicking outside
 document.getElementById('upgrade-image-overlay').addEventListener('click', function(event) {
