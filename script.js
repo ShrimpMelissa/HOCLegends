@@ -76,30 +76,30 @@ fetch('heroes.json')
                         <button class="detail-button" onclick="toggleDetails('hero${index}')">Details</button>
                     </div>
                     <div id="hero${index}" class="hero-details">
-                        <h3>Stats</h3>
-                        <ul>
-                            <li>ATK: ${hero.stats.ATK}</li>
-                            <li>DEF: ${hero.stats.DEF}</li>
-                            <li>HP: ${hero.stats.HP}</li>
-                            <li>SPD: ${hero.stats.SPD}</li>
+                        <h3 class="hero-details-heading">Stats</h3>
+                        <ul class="hero-stats-list">
+                            <li><span class="stat-label">ATK:</span> <span class="stat-value">${hero.stats.ATK}</span></li>
+                            <li><span class="stat-label">DEF:</span> <span class="stat-value">${hero.stats.DEF}</span></li>
+                            <li><span class="stat-label">HP:</span> <span class="stat-value">${hero.stats.HP}</span></li>
+                            <li><span class="stat-label">SPD:</span> <span class="stat-value">${hero.stats.SPD}</span></li>
                         </ul>
-                        <h3>Description</h3>
-                        <p>${hero.description}</p>
-                        <h3>Recommended Talisman</h3>
-                        <ul>
+                        <h3 class="hero-details-heading">Description</h3>
+                        <p class="hero-description">${hero.description}</p>
+                        <h3 class="hero-details-heading">Recommended Talisman</h3>
+                        <ul class="hero-recommendation-list">
                             ${hero.recommendedTalisman.map(talisman => `<li>${talisman}</li>`).join('')}
                         </ul>
-                        <h3>Recommended Spirit</h3>
-                        <ul>
-                            ${hero.recommendedSpirit.map(spirit => `<li>${spirit}</li>`).join('')}
+                        <h3 class="hero-details-heading">Recommended Spirit</h3>
+                        <ul class="hero-recommendation-list">
+                            ${hero.recommendedSpirit.map((spirit, index) => `<li>${index === 0 ? '⭐ ' : ''}${spirit}</li>`).join('')}
                         </ul>
-                        <h3>Recommended Codex</h3>
-                        <ul>
-                            ${hero.recommendedCodex.map(codex => `<li>${codex}</li>`).join('')}
+                        <h3 class="hero-details-heading">Recommended Codex</h3>
+                        <ul class="hero-recommendation-list">
+                            ${hero.recommendedCodex.map((codex, index) => `<li>${index === 0 ? '⭐ ' : ''}${codex}</li>`).join('')}
                         </ul>
-                        <h3>Recommended Pet</h3>
-                        <ul>
-                            ${hero.recommendedPet.map(pet => `<li>${pet.type}: ${pet.name}</li>`).join('')}
+                        <h3 class="hero-details-heading">Recommended Pet</h3>
+                        <ul class="hero-recommendation-list">
+                            ${hero.recommendedPet.map(pet => `<li><span class="pet-type">${pet.type}:</span> <span class="pet-name">${pet.name}</span></li>`).join('')}
                         </ul>
                     </div>
                 `;

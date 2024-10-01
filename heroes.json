@@ -11,8 +11,10 @@
     },
     "description": "This hero requires either 11 Stars + Divinity 5 or full nimbus for full potential. <br><br> Also recommended to have Artifact to cover her Weakness Nuwa, the mankind creator last Nimbus Series hero with super high damage input and flexibility within the fight being able to chain together the nimbus heroes. Nuwa's output on PvE and PvP are both extremely high being able to lash out true damage attacks, life steal a lot of damage, clear crowd control, add final damage and even ignore rebound effects and counter-attacking effects such as empress. <br><br> She lacks in survival without proper investment being the only weakness she has so far.",
     "recommendedTalisman": [
-      "Rapid + Fury", 
-      "Life Steal + Combo"
+      "Rapid",
+      "Fury", 
+      "Life Steal",
+      "Combo"
     ],
     "recommendedSpirit": [
       "Johan",
@@ -40,8 +42,10 @@
     },
     "description": "Suth, a powerful hero with exceptional abilities in PvP scenarios. Grants a lot of defensive buffs to the allies granting them plenty of survival.",
     "recommendedTalisman": [
-      "Toughness + Providence",
-      "Rapid + Choice"
+      "Toughness",
+      "Providence",
+      "Rapid",
+      "Choice"
     ],
     "recommendedSpirit": [
       "Isis",
@@ -68,8 +72,10 @@
     },
     "description": "<b>Divinity Only -- if not replace for Warrior Woman.</b> <br><br> The current strongest defensive hero in the game with DIVINITY providing a wide variety of buffs, damage reduction, shielding, dharmakaya, ignoring anti-heal effects, casting skills without rage, team final damage reduction and so on. Without Divinity she places outside of meta ",
     "recommendedTalisman": [
-      "Toughness + Providence",
-      "Rapid + Affinity"
+      "Toughness",
+      "Providence",
+      "Rapid",
+      "Affinity"
     ],
     "recommendedSpirit": [
       "Isis",
@@ -96,8 +102,10 @@
     },
     "description": "Fae is the nimbus hero assassin. Overall Great. Massive damage output and good support ability to reduce enemy team speed making you have an edge. After dying once she can trigger free will which makes her a machine gun of attacks dealing true damage and absolutely high crit chance.",
     "recommendedTalisman": [
-      "Rapid + Fury",
-      "Berserk + Banner"
+      "Rapid",
+      "Fury",
+      "Berserk",
+      "Banner"
     ],
     "recommendedSpirit": [
       "Hodell"
@@ -124,8 +132,10 @@
     },
     "description": "Ghost lord is the healer from nimbus series. She can deal very heavy damage depending on how much life she has being a great option for pve and having more nimbus units makes her able to Stun targets as well as remove rage. She is an awesome healer for her ability to save an unit when taking fatal damage being really great for PvP fights.",
     "recommendedTalisman": [
-      "Toughness + Providence",
-      "Rapid + Affinity"
+      "Toughness",
+      "Providence",
+      "Rapid",
+      "Affinity"
     ],
     "recommendedSpirit": [
       "Cettia"
@@ -151,8 +161,11 @@
     },
     "description": "Don't recommend mixing it with Empress so make either of the two your main. <br><br> White snake Bai Suzhen is a ranger unit. She has a place in the meta for being one of the units that could guarantee a victory with her ability to prevent rage regeneration for mid-back row she also gets speed bonuses (Meta), reducing enemy damage and even being able to tank high amounts of critical. Her damage output is very high on PvP due to her true damage basic attack. ",
     "recommendedTalisman": [
-      "Rapid + Fury",
-      "Life Steal + Combo/CC-Immune"
+      "Rapid",
+      "Fury",
+      "Life Steal",
+      "Combo",
+      "CC-Immune"
     ],
     "recommendedSpirit": [
       "Johan",
@@ -180,8 +193,10 @@
     },
     "description": "The multi attack queen support, mulan. The current strongest warrior unit in the game from nimbus series. She can restore life, gain massives amount of damage reduction, attack row with most enemies repeatedly. Her best qualities is the final damage reduction, front row tank/mid-back row damage support, dodge chance and ability to REMOVE RAGE from enemy units.",
     "recommendedTalisman": [
-      "Taunt + Rapid",
-      "Providence + Toughness"
+      "Taunt",
+      "Rapid",
+      "Providence",
+      "Toughness"
     ],
     "recommendedSpirit": [
       "Margaret",
@@ -208,8 +223,10 @@
     },
     "description": "Ancient empress Zetian can spend her life to deal True damage, accumulate Heyday buffs other Final Bonuses, and invincibility, Zetian basic attack also deals 150% to random units dealing true damage and making the enemy immune to heal. She also does not need much critical invested to her due to passives and has a bunch of damage reduction.",
     "recommendedTalisman": [
-      "Rapid + Fury",
-      "Life Steal + Combo"
+      "Rapid",
+      "Fury",
+      "Life Steal",
+      "Combo"
     ],
     "recommendedSpirit": [
       "Johan",
@@ -237,8 +254,10 @@
     },
     "description": "",
     "recommendedTalisman": [
-      "Rapid + Affinity",
-      "Toughness + Providence"
+      "Rapid",
+      "Affinity",
+      "Toughness",
+      "Providence"
     ],
     "recommendedSpirit": [
       "Cettia",
@@ -266,8 +285,10 @@
     },
     "description": "Buddhist is good for his ability to tank and go immortal during combat, he can also debuff enemies to get damaged after hitting allies alongside with his innnate damage deflection and the ability to taunt enemy units making them only able to basic hit. His damage reduction bonus is also highly considerable.",
     "recommendedTalisman": [
-      "Earthen + Deflect",
-      "Toughness + Providence"
+      "Earthen",
+      "Deflect",
+      "Toughness",
+      "Providence"
     ],
     "recommendedSpirit": [
       "Marcus",
@@ -295,8 +316,10 @@
     },
     "description": "The lotus poet is a very strong support hero with powerful anti-resurrection effect.",
     "recommendedTalisman": [
-      "Rapid + Fury",
-      "Life Steal + Combo"
+      "Rapid",
+      "Fury",
+      "Life Steal",
+      "Combo"
     ],
     "recommendedSpirit": [
       "Johan",
@@ -324,8 +347,10 @@
     },
     "description": "Not much description to give. Heyday series assassin with pretty attacks.",
     "recommendedTalisman": [
-      "Rapid + Fury",
-      "Life Steal + Combo"
+      "Rapid",
+      "Fury",
+      "Life Steal",
+      "Combo"
     ],
     "recommendedSpirit": [
       "Hodell",
@@ -352,8 +377,10 @@
     },
     "description": "Second team unit. She is a tank that can absorb a lot of damage and has a wide variety of damage reduction.",
     "recommendedTalisman": [
-      "Toughness + Providence",
-      "Earthen + Deflect"
+      "Toughness",
+      "Providence",
+      "Earthen",
+      "Deflect"
     ],
     "recommendedSpirit": [
       "Marcus",
@@ -381,8 +408,10 @@
     },
     "description": "The Twilight Priestess is a very unique healer that can go invisible and immortal. She starts with a attack debuff, can resurrect and heal plenty of life. She is a great healer for secondary PvP fights.",
     "recommendedTalisman": [
-      "Rapid + Affinity",
-      "Toughness + Providence"
+      "Rapid",
+      "Affinity",
+      "Toughness",
+      "Providence"
     ],
     "recommendedSpirit": [
       "Cettia",
@@ -410,8 +439,10 @@
     },
     "description": "Celestial lux is a ranger that can spread a lot of debuff, specially fire one. She is specially speedy.",
     "recommendedTalisman": [
-      "Rapid + Fury",
-      "Life Steal + Providence"
+      "Rapid",
+      "Fury",
+      "Life Steal",
+      "Providence"
     ],
     "recommendedSpirit": [
       "Johan",
@@ -439,8 +470,10 @@
     },
     "description": "No comments for now.",
     "recommendedTalisman": [
-      "Rapid + Fury",
-      "Life Steal + CC-Immune"
+      "Rapid",
+      "Fury",
+      "Life Steal",
+      "CC-Immune"
     ],
     "recommendedSpirit": [
       "Johan",
@@ -468,8 +501,10 @@
     },
     "description": "No comments for now.",
     "recommendedTalisman": [
-      "Rapid + Fury",
-      "Life Steal + Combo"
+      "Rapid",
+      "Fury",
+      "Life Steal",
+      "Combo"
     ],
     "recommendedSpirit": [
       "Johan  ",
@@ -497,8 +532,10 @@
     },
     "description": "No comments for now.",
     "recommendedTalisman": [
-      "Toughness + Providence",
-      "Rapid + Choice"
+      "Toughness",
+      "Providence",
+      "Rapid",
+      "Choice"
     ],
     "recommendedSpirit": [
       "Margaret",
@@ -554,8 +591,10 @@
     },
     "description": "Fallen Shura, the strongest chaos hero in the game with a wide variety of attacks, the only one worth investing of the chaos heroes.",
     "recommendedTalisman": [
-      "Rapid + Fury",
-      "Life Steal + Combo"
+      "Rapid",
+      "Fury",
+      "Life Steal",
+      "Combo"
     ],
     "recommendedSpirit": [
       "Hodell"
@@ -581,8 +620,10 @@
     },
     "description": "The sparkling wanderer is a very strong support hero with a wide variety of of debuffs and immunity effects.",
     "recommendedTalisman": [
-      "Earthen + Deflect",
-      "Weaken + Restrict"
+      "Earthen",
+      "Deflect",
+      "Weaken",
+      "Restrict"
     ],
     "recommendedSpirit": [
       "Cettia"
@@ -608,8 +649,10 @@
     },
     "description": "No comments for now. Third team unit.",
     "recommendedTalisman": [
-      "Toughness + Providence",
-      "Rapid + Fury"
+      "Toughness",
+      "Providence",
+      "Rapid",
+      "Fury"
     ],
     "recommendedSpirit": [
       "Cettia"
