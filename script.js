@@ -61,6 +61,10 @@ function toggleDetails(heroId) {
 fetch('heroes.json')
     .then(response => response.json())
     .then(data => {
+        // Sort the heroes by tier
+        const tierOrder = ['Meta', 'SS', 'S+', 'S', 'A+', 'A', 'B', 'Food'];
+        data.sort((a, b) => tierOrder.indexOf(a.tier) - tierOrder.indexOf(b.tier));
+
         const heroContainer = document.getElementById('hero-container');
         data.forEach((hero, index) => {
             if (hero.name) {
@@ -100,6 +104,10 @@ fetch('heroes.json')
                         <h3 class="hero-details-heading">Recommended Pet</h3>
                         <ul class="hero-recommendation-list">
                             ${hero.recommendedPet.map(pet => `<li><span class="pet-type">${pet.type}:</span> <span class="pet-name">${pet.name}</span></li>`).join('')}
+                        </ul>
+                        <h3 class="hero-details-heading">Recommended Rune</h3>
+                        <ul class="hero-recommendation-list">
+                            ${hero.recommendedRune ? hero.recommendedRune.map(rune => `<li>${rune}</li>`).join('') : '<li>No recommended runes</li>'}
                         </ul>
                     </div>
                 `;

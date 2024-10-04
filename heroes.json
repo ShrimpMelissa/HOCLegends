@@ -28,6 +28,10 @@
       {"type": "SPD", "name": "Whale"},
       {"type": "DMG", "name": "Dragon/Bird"},
       {"type": "Link", "name": "Lightbringer"}
+    ],
+    "recommendedRune": [
+      "Heavenly Wall",
+      "Sartan's Sigh"
     ]
   },
   {
@@ -58,6 +62,10 @@
     "recommendedPet": [
       {"type": "SUP", "name": "Illusory Demon"},
       {"type": "Link", "name": "Star Rider/Armadon"}
+    ],
+    "recommendedRune": [
+      "Golden Jade / Azure",
+      "Belial's Blessing"
     ]
   },
   {
@@ -88,6 +96,10 @@
     "recommendedPet": [
       {"type": "SUP", "name": "Illusory Demon"},
       {"type": "SUP", "name": "Star Rider"}
+    ],
+    "recommendedRune": [
+      "Golden Jade / Azure",
+      "Belial's Blessing"
     ]
   },
   {
@@ -118,6 +130,10 @@
     "recommendedPet": [
       {"type": "DMG", "name": "Dragon/Bird"},
       {"type": "Link", "name": "Lightbringer"}
+    ],
+    "recommendedRune": [
+      "Skyfire",
+      "Sartan's Sigh"
     ]
   },
   {
@@ -147,6 +163,10 @@
     "recommendedPet": [
       {"type": "SUP", "name": "Illusory Demon"},
       {"type": "Link", "name": "Star Rider/Owl"} 
+    ],
+    "recommendedRune": [
+      "Heaven Stone",
+      "Belial's Blessing"
     ]
   },
   {
@@ -179,6 +199,10 @@
       {"type": "SPD", "name": "Whale"},
       {"type": "SUP", "name": "Illusory Demon"},
       {"type": "Link", "name": "Star Rider"}
+    ],
+    "recommendedRune": [
+      "Heavenly Wall / General Stone",
+      "Sartan's Sigh / Belial's Resistance"
     ]
   },
   {
@@ -209,6 +233,10 @@
     "recommendedPet": [
       {"type": "SUP", "name": "Illusory Demon"},
       {"type": "Link", "name": "Star Rider/Armadon"}
+    ],
+    "recommendedRune": [
+      "Azure",
+      "Belial's Blessing"
     ]
   },
   {
@@ -240,6 +268,10 @@
       {"type": "SPD", "name": "Whale"},
       {"type": "DMG", "name": "Dragon/Bird"},
       {"type": "Link", "name": "Lightbringer"}
+    ],
+    "recommendedRune": [
+      "Heavenly Wall",
+      "Sartan's Sigh"
     ]
   },
   {
@@ -271,6 +303,10 @@
       {"type": "SUP", "name": "Illusory Demon"},
       {"type": "SUP", "name": "Bunny"},
       {"type": "Link", "name": "Star Rider"}
+    ],
+    "recommendedRune": [
+      "Heaven Stone",
+      "Purple Protection"
     ]
   },
   {
@@ -302,6 +338,10 @@
       {"type": "SUP", "name": "Illusory Demon"},
       {"type": "SUP", "name": "Hellspawn"},
       {"type": "Link", "name": "Star Rider"}
+    ],
+    "recommendedRune": [
+      "Azure",
+      "Sartan's Resistance"
     ]
   },
   {
@@ -333,6 +373,10 @@
       {"type": "SPD", "name": "Whale"},
       {"type": "SUP", "name": "Illusory Demon"},
       {"type": "Link", "name": "Star Rider"}
+    ],
+    "recommendedRune": [
+      "ATK",
+      "SPD"
     ]
   },
   {
@@ -363,6 +407,10 @@
     "recommendedPet": [
       {"type": "DMG", "name": "Dragon/Bird"},
       {"type": "Link", "name": "Lightbringer"}
+    ],
+    "recommendedRune": [
+      "Skyfire",
+      "Sartan's Sigh"
     ]
   },
   {
@@ -394,6 +442,10 @@
       {"type": "SUP", "name": "Illusory Demon"},
       {"type": "SUP", "name": "Hellspawn"},
       {"type": "Link", "name": "Star Rider"}
+    ],
+    "recommendedRune": [
+      "Azure",
+      "Sartan's Resistance"
     ]
   },
   {
@@ -425,6 +477,10 @@
       {"type": "SUP", "name": "Illusory Demon"},
       {"type": "SUP", "name": "Bunny"},
       {"type": "Link", "name": "Star Rider/Owl"}
+    ],
+    "recommendedRune": [
+      "Heaven Stone",
+      "Purple Protection"
     ]
   },
   {
@@ -456,6 +512,10 @@
       {"type": "SPD", "name": "Whale"},
       {"type": "DMG", "name": "Dragon/Bird"},
       {"type": "Link", "name": "Lightbringer"}
+    ],
+    "recommendedRune": [
+      "Heavenly Wall / General Stone",
+      "Sartan's Sigh"
     ]
   },
   {
@@ -487,6 +547,10 @@
       {"type": "SPD", "name": "Whale"},
       {"type": "DMG", "name": "Dragon/Bird"},
       {"type": "Link", "name": "Lightbringer"}
+    ],
+    "recommendedRune": [
+      "Heavenly Wall",
+      "Sartan's Sigh"
     ]
   },
   {
@@ -518,6 +582,10 @@
       {"type": "SPD", "name": "Whale"},
       {"type": "DMG", "name": "Dragon/Bird"},
       {"type": "Link", "name": "Lightbringer"}
+    ],
+    "recommendedRune": [
+      "Heavenly Wall",
+      "Sartan's Sigh"
     ]
   },
   {
@@ -548,6 +616,10 @@
     "recommendedPet": [
       {"type": "SUP", "name": "Illusory Demon"},
       {"type": "SUP", "name": "Star Rider/Armadon"}
+    ],
+    "recommendedRune": [
+      "Heaven Stone",
+      "Purple Protection"
     ]
   },
   {
@@ -577,6 +649,10 @@
       {"type": "X", "name": "X"},
       {"type": "X", "name": "X"},
       {"type": "X", "name": "X"}
+    ],
+    "recommendedRune": [
+      "Don't invest",
+      "Don't invest"
     ]
   },
   {
@@ -606,6 +682,10 @@
     "recommendedPet": [
       {"type": "DMG", "name": "Dragon/Bird"},
       {"type": "Link", "name": "Lightbringer"}
+    ],
+    "recommendedRune": [
+      "Skyfire",
+      "Sartan's Sigh"
     ]
   },
   {
@@ -635,6 +715,10 @@
     "recommendedPet": [
       {"type": "SUP", "name": "Illusory Demon"},
       {"type": "SUP", "name": "Armadon"}
+    ],
+    "recommendedRune": [
+      "Heaven Stone",
+      "Purple Protection"
     ]
   },
   {
@@ -664,6 +748,10 @@
     "recommendedPet": [
       {"type": "SUP", "name": "Illusory Demon"},
       {"type": "SUP", "name": "Star Rider/Owl"}
+    ],
+    "recommendedRune": [
+      "Heaven Stone",
+      "Purple Protection"
     ]
   },
   {
@@ -693,6 +781,10 @@
       {"type": "", "name": ""},
       {"type": "", "name": ""},
       {"type": "", "name": ""}
+    ],
+    "recommendedRune": [
+      "",
+      ""
     ]
   },
   {
@@ -722,6 +814,10 @@
       {"type": "", "name": ""},
       {"type": "", "name": ""},
       {"type": "", "name": ""}
+    ],
+    "recommendedRune": [
+      "",
+      ""
     ]
   },
   {
@@ -751,6 +847,10 @@
       {"type": "", "name": ""},
       {"type": "", "name": ""},
       {"type": "", "name": ""}
+    ],
+    "recommendedRune": [
+      "",
+      ""
     ]
   },
   {
@@ -780,6 +880,10 @@
       {"type": "", "name": ""},
       {"type": "", "name": ""},
       {"type": "", "name": ""}
+    ],
+    "recommendedRune": [
+      "",
+      ""
     ]
   },
   {
@@ -809,6 +913,10 @@
       {"type": "", "name": ""},
       {"type": "", "name": ""},
       {"type": "", "name": ""}
+    ],
+    "recommendedRune": [
+      "",
+      ""
     ]
   },
   {
@@ -838,209 +946,10 @@
       {"type": "", "name": ""},
       {"type": "", "name": ""},
       {"type": "", "name": ""}
-    ]
-  },
-  {
-    "name": "",
-    "tier": "",
-    "image": "",
-    "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
-    },
-    "description": "",
-    "recommendedTalisman": [
+    ],
+    "recommendedRune": [
       "",
       ""
-    ],
-    "recommendedSpirit": [
-      "",
-      ""
-    ],
-    "recommendedCodex": [
-      "",
-      ""
-    ],
-    "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
-    ]
-  },
-  {
-    "name": "",
-    "tier": "",
-    "image": "",
-    "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
-    },
-    "description": "",
-    "recommendedTalisman": [
-      "",
-      ""
-    ],
-    "recommendedSpirit": [
-      "",
-      ""
-    ],
-    "recommendedCodex": [
-      "",
-      ""
-    ],
-    "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
-    ]
-  },
-  {
-    "name": "",
-    "tier": "",
-    "image": "",
-    "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
-    },
-    "description": "",
-    "recommendedTalisman": [
-      "",
-      ""
-    ],
-    "recommendedSpirit": [
-      "",
-      ""
-    ],
-    "recommendedCodex": [
-      "",
-      ""
-    ],
-    "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
-    ]
-  },
-  {
-    "name": "",
-    "tier": "",
-    "image": "",
-    "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
-    },
-    "description": "",
-    "recommendedTalisman": [
-      "",
-      ""
-    ],
-    "recommendedSpirit": [
-      "",
-      ""
-    ],
-    "recommendedCodex": [
-      "",
-      ""
-    ],
-    "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
-    ]
-  },
-  {
-    "name": "",
-    "tier": "",
-    "image": "",
-    "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
-    },
-    "description": "",
-    "recommendedTalisman": [
-      "",
-      ""
-    ],
-    "recommendedSpirit": [
-      "",
-      ""
-    ],
-    "recommendedCodex": [
-      "",
-      ""
-    ],
-    "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
-    ]
-  },
-  {
-    "name": "",
-    "tier": "",
-    "image": "",
-    "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
-    },
-    "description": "",
-    "recommendedTalisman": [
-      "",
-      ""
-    ],
-    "recommendedSpirit": [
-      "",
-      ""
-    ],
-    "recommendedCodex": [
-      "",
-      ""
-    ],
-    "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
-    ]
-  },
-  {
-    "name": "",
-    "tier": "",
-    "image": "",
-    "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
-    },
-    "description": "",
-    "recommendedTalisman": [
-      "",
-      ""
-    ],
-    "recommendedSpirit": [
-      "",
-      ""
-    ],
-    "recommendedCodex": [
-      "",
-      ""
-    ],
-    "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
     ]
   },
   {
