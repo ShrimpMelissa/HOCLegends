@@ -839,6 +839,51 @@ body.dark-mode .hero-rating[data-tier="Food"] { color: #d9d9d9; }
     }
 }
 
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .hero-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-image {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 10px;
+    }
+
+    .hero-info {
+        text-align: center;
+    }
+
+    .hero-stats {
+        font-size: 0.9em;
+    }
+
+    .hero-description {
+        font-size: 0.95em;
+    }
+
+    .welcome-button {
+        font-size: 0.8em;
+        padding: 8px 12px;
+    }
+
+    #welcome h2 {
+        font-size: 1.5em;
+    }
+
+    #welcome p {
+        font-size: 1em;
+    }
+}
 /* Add icons for each button (replace with actual icon paths) */
 .upgrade-buttons button[onclick*="herostar"]:before { background-image: url('path/to/herostar-icon.png'); }
 .upgrade-buttons button[onclick*="potential"]:before { background-image: url('path/to/potential-icon.png'); }
