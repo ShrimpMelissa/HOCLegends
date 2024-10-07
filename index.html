@@ -70,8 +70,17 @@
         <div id="welcome" class="tab-content active">
             <h2>Welcome!</h2>
             <p>Please check disclaimers and rating before commenting!</p>
+            <p>Click the button on top-left for quick access.</p>
             <p>If you would like to help or point out something, please reach out to me on <b>Discord: Shrimpblue</b></p>
-            <img src="sharkie.png" alt="">
+            <img src="sharkie.png" alt="Sharkie mascot">
+            <div class="button-container">
+                <button onclick="openTab(event, 'heroes')" class="welcome-button">Heroes</button>
+                <button onclick="openTab(event, 'upgrade-requirements')" class="welcome-button">Upgrades</button>
+                <button onclick="openTab(event, 'gear')" class="welcome-button">Gear</button>
+                <button onclick="openTab(event, 'equipment')" class="welcome-button"> Equipment</button>
+                <button onclick="openTab(event, 'talisman')" class="welcome-button">Talisman</button>
+                <button onclick="openTab(event, 'disclaimer-info')" class="welcome-button">Disclaimer</button>
+            </div>
         </div>
 
         <div id="heroes" class="tab-content">
