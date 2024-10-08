@@ -1,0 +1,116 @@
+[
+  {
+    "type": "Pet",
+    "entries": [
+      {
+        "name": "Dragon",
+        "description": "",
+        "recommendedStars": 1,
+        "tier": "",
+        "image": "./Images/pets/dragon.png"
+      },
+      {
+        "name": "Whale",
+        "description": "",
+        "recommendedStars": 5,
+        "tier": "",
+        "image": "./Images/pets/whale.png"
+      }
+    ]
+  },
+  {
+    "type": "Artifact",
+    "entries": [
+      {
+        "name": "Prayer Flag",
+        "description": "",
+        "recommendedStars": 2,
+        "tier": "",
+        "image": "./Images/artifacts/prayer_flag.png"
+      },
+      {
+        "name": "Dragon's Roar",
+        "description": "",
+        "recommendedStars": 0,
+        "tier": "",
+        "image": "./Images/artifacts/dragons_roar.png"
+      }
+    ]
+  },
+  {
+    "type": "War Spirits",
+    "entries": [
+      {
+        "name": "Johan",
+        "description": "",
+        "recommendedStars": 3,
+        "tier": "",
+        "image": "./Images/war_spirits/johan.png"
+      },
+      {
+        "name": "Weiying",
+        "description": "",
+        "recommendedStars": 3,
+        "tier": "",
+        "image": "./Images/war_spirits/guardian_spirit.png"
+      }
+    ]
+  },
+  {
+    "type": "Tomes",
+    "entries": [
+      {
+        "name": "Thor's Prayer",
+        "description": "",
+        "recommendedStars": 1,
+        "tier": "",
+        "image": "./Images/tomes/thor's_prayer.png"
+      },
+      {
+        "name": "Yuni Elegy",
+        "description": "",
+        "recommendedStars": 0,
+        "tier": "",
+        "image": "./Images/tomes/yuni_elegy.png"
+      }
+    ]
+  },
+  {
+    "type": "Relics",
+    "entries": [
+      {
+        "name": "Storm Statue",
+        "description": "",
+        "recommendedStars": 0,
+        "tier": "",
+        "image": "./Images/relics/storm_statue.png"
+      },
+      {
+        "name": "Axe Pillar",
+        "description": "",
+        "recommendedStars": 0,
+        "tier": "",
+        "image": "./Images/relics/axe_pillar.png"
+      }
+    ]
+  },
+  {
+    "type": "Runes",
+    "entries": [
+      {
+        "name": "Heavenly Wall",
+        "description": "",
+        "recommendedStars": 2,
+        "tier": "",
+        "image": "./Images/runes/heavenly_wall.png"
+      },
+      { 
+        "name": "Golden Jade",
+        "description": "",
+        "recommendedStars": 0,
+        "tier": "",
+        "image": "./Images/runes/golden_jade.png"
+      }
+    ]
+  }
+]

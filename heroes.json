@@ -138,7 +138,7 @@
   },
   {
     "name": "Ghost Lord",
-    "tier": "Meta",
+    "tier": "SS",
     "image": "./Images/ghostlord.png",
     "stats": {
       "ATK": "126k",
@@ -276,7 +276,7 @@
   },
   {
     "name": "Rainbow Feather",
-    "tier": "SS",
+    "tier": "S+",
     "image": "./Images/feather.png",
     "stats": {
       "ATK": "157k",
@@ -450,7 +450,7 @@
   },
   {
     "name": "Twilight Priestess",
-    "tier": "S+",
+    "tier": "S",
     "image": "./Images/heather.png",
     "stats": {
       "ATK": "163k",
@@ -755,36 +755,37 @@
     ]
   },
   {
-    "name": "",
-    "tier": "",
-    "image": "",
+    "name": "Illusory Moon",
+    "tier": "Meta",
+    "image": "./Images/change.png",
     "stats": {
-      "ATK": "",
-      "DEF": "",
-      "HP": "",
-      "SPD": ""
+      "ATK": "157k",
+      "DEF": "10871",
+      "HP": "1.82m",
+      "SPD": "108"
     },
     "description": "",
     "recommendedTalisman": [
-      "",
-      ""
+      "Providence",
+      "Toughness",
+      "Rapid",
+      "Affinity"
     ],
     "recommendedSpirit": [
-      "",
-      ""
+      "Cettia",
+      "Margaret"
     ],
     "recommendedCodex": [
-      "",
-      ""
+      "Yuni Elegy ",
+      "Venus Hymn"
     ],
     "recommendedPet": [
-      {"type": "", "name": ""},
-      {"type": "", "name": ""},
-      {"type": "", "name": ""}
+      {"type": "SUP", "name": "Bunny"},
+      {"type": "SUP", "name": "Owl"}
     ],
     "recommendedRune": [
-      "",
-      ""
+      "Heaven Stone",
+      "Purple Protection"
     ]
   },
   {
